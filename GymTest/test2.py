@@ -1,5 +1,11 @@
 import gym
-
+'''
+使用 env=gym.make(环境名)取出（内置好的）环境
+使用 env.reset()初始化（重置）环境，返回一个当前的状态
+使用 env.step(动作)执行一步环境，返回下一次的状态，动作的奖励，是否结束回合的标志
+使用 env.render()显示环境
+使用 env.close()关闭环境
+'''
 class SimpleAgent:
     def __init__(self, env):
         pass
